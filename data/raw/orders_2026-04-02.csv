@@ -1,0 +1,7 @@
+order_id,customer_id,order_date,amount,currency,status
+5007,C-002,2026-04-02,75.00,PLN,paid
+5008,C-005,02/04/2026,"1099,99",PLN,paid
+5009,C-003,2026-04-02,-20.00,PLN,paid
+5010,C-006,2026-04-02,150.00,PLN,unknown_status
+5011,C-004,2026-04-02,62.30,PLN,cancelled
+5012,C-002,2026-04-02,99.99,PLN,paid

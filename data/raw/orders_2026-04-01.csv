@@ -1,0 +1,7 @@
+order_id,customer_id,order_date,amount,currency,status
+5001,C-001,2026-04-01,129.00,PLN,paid
+5002,C-002,2026-04-01,"249,00",PLN,paid
+5003,C-003,01/04/2026,89.50,PLN,pending
+5004,,2026-04-01,45.00,PLN,paid
+5005,C-001,2026-04-01,,PLN,paid
+5006,C-004,2026-04-01,  310.75  ,PLN,shipped

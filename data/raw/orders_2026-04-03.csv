@@ -1,0 +1,7 @@
+order_id,customer_id,order_date,amount,currency,status
+5013,C-007,2026-04-03,410.00,PLN,paid
+5014,C-005,03/04/2026,55.00,PLN,pending
+5015,C-001,2026-04-03,abc,PLN,paid
+5016,C-008,2026-04-03,180.00,PLN,shipped
+5002,C-002,2026-04-03,249.00,PLN,paid
+5017,C-003,2026-04-03,12.00,PLN,paid

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "C-001",
+    "name": "Anna Kowalska",
+    "address": {"city": "Warszawa", "country": "PL"},
+    "contacts": [
+      {"type": "email", "value": "anna.kowalska@example.com"},
+      {"type": "phone", "value": "+48 600 100 200"}
+    ]
+  },
+  {
+    "id": "C-002",
+    "name": "Marek Nowak",
+    "address": {"city": "Krakow", "country": "PL"},
+    "contacts": [{"type": "email", "value": "m.nowak@example.com"}]
+  },
+  {
+    "id": "C-003",
+    "name": "Biuro Serwis Sp. z o.o.",
+    "address": null,
+    "contacts": []
+  },
+  {
+    "id": "C-004",
+    "name": "Katarzyna Lis",
+    "address": {"city": "Gdansk", "country": "PL"},
+    "contacts": [{"type": "phone", "value": "+48 501 900 300"}]
+  },
+  {
+    "id": "C-005",
+    "name": "Studio Wnetrz Alfa",
+    "address": {"city": "Wroclaw", "country": "PL"},
+    "contacts": []
+  },
+  {
+    "id": "C-006",
+    "name": "Tomasz Zielinski",
+    "address": {"city": "Poznan", "country": "PL"},
+    "contacts": [{"type": "email", "value": "t.zielinski@example.com"}]
+  },
+  {
+    "id": "C-008",
+    "name": "Hurtownia Beta",
+    "address": {"city": "Lodz", "country": "PL"},
+    "contacts": [{"type": "email", "value": "kontakt@beta.example.com"}]
+  }
+]
