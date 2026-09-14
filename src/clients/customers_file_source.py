@@ -19,9 +19,11 @@ def flatten_customer(customer: dict) -> dict[str, str | None]:
         city = DEFAULT_ADDRESS
     else:
         city = customer["address"]["city"]
-    if not customer["contacts"]:
-        email = None
-    else:
-        email = customer["contacts"][0]["value"]
+
+    email = next(
+        (contact["value"] for contact in customer["contacts"] if contact["type"] == "email"),
+        None,
+    )
+
     return {"name": name, "city": city, "email": email}
 
