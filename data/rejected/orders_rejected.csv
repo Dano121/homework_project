@@ -1,0 +1,7 @@
+order_id,reason
+5004,Order 5004: missing field customer_id
+5005,Order 5005: Please enter a valid amount
+5009,Order 5009: negative amount -20.00
+5010,Order 5010: unknown_status is not allowed
+5015,Order 5015: Please enter a valid amount
+5002,Order 5002: duplicate id

@@ -1,0 +1,21 @@
+order_id,position,sku,product_name,quantity,unit_price,line_total
+5001,1,SKU-100,"Bluza z kapturem, czarna",1,99.00,99.00
+5001,2,SKU-101,Skarpety,2,15.00,30.00
+5002,1,SKU-102,Notatnik A5,1,249.00,249.00
+5003,1,SKU-103,Kubek,1,29.50,29.50
+5003,2,SKU-104,"Herbata, zielona",2,30.00,60.00
+5006,1,SKU-105,Lampka biurkowa,1,180.75,180.75
+5006,2,SKU-106,Zarowka,2,45.00,90.00
+5006,3,SKU-107,Przedluzacz,1,40.00,40.00
+5007,1,SKU-108,Plakat A2,1,75.00,75.00
+5008,1,SKU-109,"Fotel biurowy, ergonomiczny",1,1099.99,1099.99
+5008,2,SKU-110,Podnozek,1,200.00,200.00
+5011,1,SKU-111,Torba,1,62.30,62.30
+5012,1,SKU-112,Czapka,1,49.99,49.99
+5012,2,SKU-113,Szalik,1,50.00,50.00
+5013,1,SKU-114,Monitor 27 cali,1,300.00,300.00
+5013,2,SKU-115,Kabel HDMI,2,35.00,70.00
+5013,3,SKU-116,Podstawka,1,40.00,40.00
+5014,1,SKU-117,Mysz bezprzewodowa,1,55.00,55.00
+5016,1,SKU-118,"Klawiatura, mechaniczna",1,150.00,150.00
+5016,2,SKU-119,Podkladka,1,30.00,30.00
