@@ -11,3 +11,4 @@ def write_rows(rows: list[dict], path: Path) -> int:
         writer.writeheader()
         writer.writerows(rows)
     return len(rows)
+
