@@ -6,7 +6,6 @@ from src.clients.customers_file_source import flatten_customer
 
 
 def normalize_order(order: dict, customers: dict, item_count: int) -> dict:
-
     order_id = order["order_id"]
     order_date = order["order_date"]
     customer_id = order["customer_id"]
@@ -46,6 +45,7 @@ def normalize_order_items(order_id: str, items: list[dict]) -> list[dict]:
             "line_total": item["quantity"] * item["unit_price"],
         })
     return result
+
 
 def normalize_all(orders: list[dict], items: list[dict], customers: dict[str,dict]) -> tuple[list[dict], list[dict]]:
     grouped_items = defaultdict(list)
