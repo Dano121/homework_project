@@ -42,6 +42,8 @@ def clean_date(value:str) -> str:
 
 
 def clean_order(raw:dict) -> dict:
+    # ogarnij to w jednym try
+
     order_id = raw["order_id"]
     try:
         customer_id = clean_text(raw["customer_id"])
@@ -73,6 +75,7 @@ def clean_order(raw:dict) -> dict:
     }
 
 def clean_order_item(raw:dict) -> dict:
+    # ogarnij to w jednym try
     order_id = raw["order_id"]
     try:
         sku = clean_text(raw["sku"])

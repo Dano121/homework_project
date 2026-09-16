@@ -55,3 +55,31 @@ if __name__ == "__main__":
     except PipelineError as e:
         print(f"Przerwano: {e}")
         sys.exit(1)
+
+# tutaj zawsze :
+# if __name__ == "__main__":
+#     main()
+
+
+# zrob cos na wzor:
+# def main() -> None:
+#     try:
+#         summary = run()
+#     except PipelineError as error:
+#         print(f"run aborted -- {type(error).__name__}: {error}")
+#         raise SystemExit(1) from error
+#
+#     print(
+#         f"read: {summary['read']} orders | "
+#         f"rejected: {summary['rejected']} | "
+#         f"orders: {summary['orders']} rows | "
+#         f"order_items: {summary['items']} rows | "
+#         f"output: {summary['output_dir']}"
+#     )
+#
+#
+# if __name__ == "__main__":
+#     main()
+
+
+# to co wiekszosc masz w main dopisz metode run nad main w tym pliku

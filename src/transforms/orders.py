@@ -5,6 +5,10 @@ from src.clients.customers_file_source import flatten_customer
 
 
 def normalize_order(order: dict, customers: dict, item_count: int) -> dict:
+
+    # spróbuj tutaj z czymś takim:
+    # customer = customers.get(order["customer_id"]) or {}
+
     order_id = order["order_id"]
     order_date = order["order_date"]
     customer_id = order["customer_id"]
@@ -38,7 +42,6 @@ def normalize_order(order: dict, customers: dict, item_count: int) -> dict:
 def normalize_order_items(order_id: str, items: list[dict]) -> list[dict]:
     result = []
     for position, item in enumerate(items, start=1):
-        line_total = item["quantity"] * item["unit_price"]
         result.append({
             "order_id": order_id,
             "position": position,
@@ -46,10 +49,12 @@ def normalize_order_items(order_id: str, items: list[dict]) -> list[dict]:
             "product_name": item["product_name"],
             "quantity": item["quantity"],
             "unit_price": item["unit_price"],
-            "line_total": line_total,
+            "line_total": item["quantity"] * item["unit_price"],
         })
     return result
 
+
+# zerknij tutaj nie potrzebujesz loopa po items
 def normalize_all(orders: list[dict], items: list[dict], customers: dict[str,dict]) -> tuple[list[dict], list[dict]]:
     grouped_items = {}
     for item in items:
