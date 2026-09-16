@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
-from src.config import DEFAULT_ADDRESS
+from typing import Any
+
+from src.config import UNKNOWN_CATEGORY, DEFAULT_ADDRESS
 from src.errors import ConfigError
 
 
@@ -12,16 +14,15 @@ def read_customers(path: Path) -> dict[str, dict]:
         lookup = {customer["id"]: customer for customer in data}
         return lookup
 
-def flatten_customer(customer: dict) -> dict[str, str | None]:
-    name = customer["name"]
+def flatten_customer(customer: dict[str, Any]) -> dict[str, str | None]:
+    name = customer.get("name",UNKNOWN_CATEGORY)
 
-    if customer["address"] is None:
-        city = DEFAULT_ADDRESS
-    else:
-        city = customer["address"]["city"]
+    address = customer.get("address") or {}
+    city = address.get("city",DEFAULT_ADDRESS)
+
 
     email = next(
-        (contact["value"] for contact in customer["contacts"] if contact["type"] == "email"),
+        (contact["value"] for contact in customer.get("contacts",[]) if contact["type"] == "email"),
         None,
     )
 

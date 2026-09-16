@@ -45,21 +45,9 @@ def clean_order(raw:dict) -> dict:
     order_id = raw["order_id"]
     try:
         customer_id = clean_text(raw["customer_id"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         order_date = clean_date(raw["order_date"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         amount = clean_amount(raw["amount"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         currency = clean_text(raw["currency"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         status = clean_text(raw["status"])
     except ValidationError as error:
         raise ValidationError(f"Order {order_id}: {error}") from error
@@ -76,17 +64,8 @@ def clean_order_item(raw:dict) -> dict:
     order_id = raw["order_id"]
     try:
         sku = clean_text(raw["sku"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         product_name = clean_text(raw["product_name"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         quantity = clean_int(raw["quantity"])
-    except ValidationError as error:
-        raise ValidationError(f"Order {order_id}: {error}") from error
-    try:
         unit_price = clean_amount(raw["unit_price"])
     except ValidationError as error:
         raise ValidationError(f"Order {order_id}: {error}") from error

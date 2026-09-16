@@ -1,13 +1,13 @@
 order_id,order_date,customer_id,amount,currency,status,customer_name,customer_city,customer_email,item_count,source,ingested_at
-5001,2026-04-01,C-001,129.00,PLN,paid,Anna Kowalska,Warszawa,anna.kowalska@example.com,2,homework-store,2026-09-15T16:16:47+00:00
-5002,2026-04-01,C-002,249.00,PLN,paid,Marek Nowak,Krakow,m.nowak@example.com,1,homework-store,2026-09-15T16:16:47+00:00
-5003,2026-04-01,C-003,89.50,PLN,pending,Biuro Serwis Sp. z o.o.,Brak adresu,Brak email lub nr telefonu,2,homework-store,2026-09-15T16:16:47+00:00
-5006,2026-04-01,C-004,310.75,PLN,shipped,Katarzyna Lis,Gdansk,Brak email lub nr telefonu,3,homework-store,2026-09-15T16:16:47+00:00
-5007,2026-04-02,C-002,75.00,PLN,paid,Marek Nowak,Krakow,m.nowak@example.com,1,homework-store,2026-09-15T16:16:47+00:00
-5008,2026-04-02,C-005,1099.99,PLN,paid,Studio Wnetrz Alfa,Wroclaw,Brak email lub nr telefonu,2,homework-store,2026-09-15T16:16:47+00:00
-5011,2026-04-02,C-004,62.30,PLN,cancelled,Katarzyna Lis,Gdansk,Brak email lub nr telefonu,1,homework-store,2026-09-15T16:16:47+00:00
-5012,2026-04-02,C-002,99.99,PLN,paid,Marek Nowak,Krakow,m.nowak@example.com,2,homework-store,2026-09-15T16:16:47+00:00
-5013,2026-04-03,C-007,410.00,PLN,paid,UNKNOWN,Brak adresu,Brak email lub nr telefonu,3,homework-store,2026-09-15T16:16:47+00:00
-5014,2026-04-03,C-005,55.00,PLN,pending,Studio Wnetrz Alfa,Wroclaw,Brak email lub nr telefonu,1,homework-store,2026-09-15T16:16:47+00:00
-5016,2026-04-03,C-008,180.00,PLN,shipped,Hurtownia Beta,Lodz,kontakt@beta.example.com,2,homework-store,2026-09-15T16:16:47+00:00
-5017,2026-04-03,C-003,12.00,PLN,paid,Biuro Serwis Sp. z o.o.,Brak adresu,Brak email lub nr telefonu,0,homework-store,2026-09-15T16:16:47+00:00
+5001,2026-04-01,C-001,129.00,PLN,paid,Anna Kowalska,Warszawa,anna.kowalska@example.com,2,homework-store,2026-09-16T20:16:07+00:00
+5002,2026-04-01,C-002,249.00,PLN,paid,Marek Nowak,Krakow,m.nowak@example.com,1,homework-store,2026-09-16T20:16:07+00:00
+5003,2026-04-01,C-003,89.50,PLN,pending,Biuro Serwis Sp. z o.o.,Brak adresu,Brak email lub nr telefonu,2,homework-store,2026-09-16T20:16:07+00:00
+5006,2026-04-01,C-004,310.75,PLN,shipped,Katarzyna Lis,Gdansk,Brak email lub nr telefonu,3,homework-store,2026-09-16T20:16:07+00:00
+5007,2026-04-02,C-002,75.00,PLN,paid,Marek Nowak,Krakow,m.nowak@example.com,1,homework-store,2026-09-16T20:16:07+00:00
+5008,2026-04-02,C-005,1099.99,PLN,paid,Studio Wnetrz Alfa,Wroclaw,Brak email lub nr telefonu,2,homework-store,2026-09-16T20:16:07+00:00
+5011,2026-04-02,C-004,62.30,PLN,cancelled,Katarzyna Lis,Gdansk,Brak email lub nr telefonu,1,homework-store,2026-09-16T20:16:07+00:00
+5012,2026-04-02,C-002,99.99,PLN,paid,Marek Nowak,Krakow,m.nowak@example.com,2,homework-store,2026-09-16T20:16:07+00:00
+5013,2026-04-03,C-007,410.00,PLN,paid,UNKNOWN,Brak adresu,Brak email lub nr telefonu,3,homework-store,2026-09-16T20:16:07+00:00
+5014,2026-04-03,C-005,55.00,PLN,pending,Studio Wnetrz Alfa,Wroclaw,Brak email lub nr telefonu,1,homework-store,2026-09-16T20:16:07+00:00
+5016,2026-04-03,C-008,180.00,PLN,shipped,Hurtownia Beta,Lodz,kontakt@beta.example.com,2,homework-store,2026-09-16T20:16:07+00:00
+5017,2026-04-03,C-003,12.00,PLN,paid,Biuro Serwis Sp. z o.o.,Brak adresu,Brak email lub nr telefonu,0,homework-store,2026-09-16T20:16:07+00:00
